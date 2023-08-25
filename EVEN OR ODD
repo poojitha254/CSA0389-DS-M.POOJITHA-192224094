@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int i,even,odd,n;
+	printf("enter the no of elements=");
+	scanf("%d",&n);
+	printf("Even numbers:\n");
+	for(i=1;i<=n;i++)
+	{
+		if(i%2==0)
+		printf("%d ",i);
+	}
+	printf("\nOdd numbers:\n");
+	for(i=1;i<=n;i++)
+	{
+		if(i%2!=0)
+		printf("%d ",i);
+	}
+	return 0;
+}
