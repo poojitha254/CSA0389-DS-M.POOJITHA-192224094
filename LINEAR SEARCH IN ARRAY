@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int a[50];
+	int n,i,search;
+	printf("enter the size of array=");
+	scanf("%d",&n);
+	printf("enter the elements=\n");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("enter the search element=");
+	scanf("%d",&search);
+	printf("displaying search element:\n");
+	for(i=0;i<n;i++)
+	{
+		if(a[i]==search)
+		printf("search element %d is found at %d position",search,i+1);
+	}
+	return 0;
+}
